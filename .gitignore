@@ -1,0 +1,8 @@
+# Ignore checkpoints and cache
+.ipynb_checkpoints
+__pycache__
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
