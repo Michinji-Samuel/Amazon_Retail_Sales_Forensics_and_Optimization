@@ -54,6 +54,26 @@ The final model was serialized and saved as `amazon_sales_forecaster.pkl`. This 
 
 ---
 
+## 🖥️ Phase 3: Interactive Dashboard (The System)
+*Response to Feedback: "Create a deployable system, not just a notebook."*
+
+To bridge the gap between Data Science and Business Operations, I built an interactive **Streamlit Dashboard**. This allows Inventory Managers to simulate scenarios without touching Python code.
+
+### 🌟 Features
+* **User-Friendly Interface:** Simple dropdowns and number inputs for Product, Price, and Stock.
+* **Real-Time Inference:** Loads the serialized Random Forest model (`.pkl`) to generate instant predictions.
+* **Business Logic:** Automatically flags "High Demand" or "Low Demand" scenarios to guide decision-making.
+
+### 🚀 How to Run the App
+1.  Clone the repository.
+2.  Install dependencies: `pip install -r requirements.txt`
+3.  Run the dashboard:
+    ```bash
+    streamlit run app.py
+    ```
+
+---
+
 ## 💡 Key Business Insights
 
 ### 1. 💰 Sales Drivers (Machine Learning Analysis)
